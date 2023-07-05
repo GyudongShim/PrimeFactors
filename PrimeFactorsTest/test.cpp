@@ -23,3 +23,10 @@ TEST_F(PrimeFactorsFixture, Of2) {
 
 	EXPECT_EQ(expected, primeFactor.of(2));
 }
+
+TEST_F(PrimeFactorsFixture, Of3) {
+	PrimeFactors primeFactor{};
+	expected.push_back(3);
+
+	EXPECT_EQ(expected, primeFactor.of(3));
+}
