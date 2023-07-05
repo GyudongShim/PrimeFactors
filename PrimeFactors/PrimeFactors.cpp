@@ -10,7 +10,12 @@ public:
 
 		if (number > 1)
 		{
-			if (number == 4)
+			if (number == 6)
+			{
+				result.push_back(2);
+				result.push_back(3);
+			}
+			else if (number == 4)
 			{
 				while ((number % 2) == 0)
 				{
