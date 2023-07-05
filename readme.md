@@ -1,4 +1,4 @@
 ## PrimeFactor
 ---
-TDD KATA
+TDD KATA for PrimeFactor
 
