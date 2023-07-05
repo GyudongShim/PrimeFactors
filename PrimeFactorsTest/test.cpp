@@ -1,13 +1,12 @@
 #include "pch.h"
 #include "../PrimeFactors/PrimeFactors.cpp"
 
+#include <vector>
+using namespace std;
 
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_EQ(1, 1);
-  EXPECT_EQ(1, 1);
-  EXPECT_EQ(1, 1);
-  EXPECT_EQ(1, 1);
+TEST(PrimeFactors, Of1) {
+	PrimeFactors primeFactor{};
+	vector<int> expected = {};
 
-  EXPECT_TRUE(true);
+	EXPECT_EQ(expected, primeFactor.of(1));
 }
